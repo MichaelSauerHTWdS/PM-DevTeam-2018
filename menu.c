@@ -1,3 +1,4 @@
+#define ITEM_KOM3   3
 #include <stdio.h>
 #include "scanflib.h"
 
@@ -12,7 +13,7 @@
 char * komMenu[]={"\n 0\tHilfetext\n",
                   " 1\t1.Kommando\n",
                   " 2\t2.Kommando\n",
-                  " 3\t3.---------\n",
+                  " 3\t3.Mareuter Corp.\n",
                   " 4\a\tEnde\n"};
 int steuerMenu(void);
 
