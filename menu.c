@@ -1,4 +1,3 @@
-#define ITEM_KOM3   3
 #include <stdio.h>
 #include "scanflib.h"
 
