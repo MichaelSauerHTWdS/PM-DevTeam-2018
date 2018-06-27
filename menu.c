@@ -29,6 +29,7 @@ int steuerMenu()
     for (int i=0; i<(sizeof(komMenu)/sizeof(char *)); i++)
       {
       printf("%s",komMenu[i]);
+      printf("%s", hello wordl);
       }
     printf("$:");
 	if (readInteger(&kommando)!=NO_ERROR)
