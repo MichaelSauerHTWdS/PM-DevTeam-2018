@@ -1,4 +1,4 @@
-PROGRAM=runme
+PROGRAM=runme.notanexe
 OBJECTS=menu.o scanflib.o
 DEPENDFILE=.depend
 CC=gcc
@@ -12,17 +12,17 @@ all: dep $(PROGRAM)
 $(PROGRAM): $(OBJECTS)
 	$(CC) $(OBJECTS) -o $(PROGRAM)
 
-%.o : %.cpp
+%.o : %.c
 	$(CC) -c $(CFLAGS) $< -o $@
 
 .PHONY: dep
 
-dep: *.cpp
-	gcc -MM *.cpp > $(DEPENDFILE)
+dep: *.c
+	gcc -MM *.c > $(DEPENDFILE)
 
 -include $(DEPENDFILE)
 
 .PHONY: clean
 
 clean:
-	rm *.o *.h.gch *.out
+	rm *.o *.h.gch *.out *.notanexe .depend
