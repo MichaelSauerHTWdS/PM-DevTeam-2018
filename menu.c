@@ -7,6 +7,7 @@
 #define ITEM_KOM3   3
 #define ITEM_ENDE   4
 
+#define EEMIRI 7
 
 
 char * komMenu[]={"\n 0\tHilfetext\n",
