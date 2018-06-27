@@ -50,6 +50,8 @@ int steuerMenu()
               }
                          break;
       case  ITEM_ENDE:   printf("%s",komMenu[ITEM_ENDE]);
+              printf("\n This programm has been presented by");
+              printf("\n           THE MAREUTER CORP.\n\n");
                          break;
       default: printf("\nkein Kommando\n");
       }
