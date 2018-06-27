@@ -6,6 +6,7 @@
 #define ITEM_KOM2   2
 #define ITEM_KOM3   3
 #define ITEM_ENDE   4
+#define MAECHTIGER_MATTHIAS 5
 
 
 
@@ -48,6 +49,9 @@ int steuerMenu()
 			case  ITEM_KOM3:   printf("%s", komMenu[ITEM_KOM3]);
 				break;
 			case  ITEM_ENDE:   printf("%s", komMenu[ITEM_ENDE]);
+				break;
+			case MAECHTIGER_MATTHIAS:
+				printf("%s", "Geheiligt sei er");
 				break;
 			default: printf("\nkein Kommando\n");
 		}
