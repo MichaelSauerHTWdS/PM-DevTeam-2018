@@ -5,7 +5,8 @@
 #define ITEM_KOM1   1
 #define ITEM_KOM2   2
 #define ITEM_KOM3   3
-#define ITEM_ENDE   4
+#define ITEM_PHBARTH 23
+#define ITEM_ENDE   99
 
 
 
@@ -13,7 +14,8 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 1\t1.Kommando\n",
                   " 2\t2.Kommando\n",
                   " 3\t3.---------\n",
-                  " 4\a\tEnde\n"};
+                  " 4\t4.PHBARTH\n",
+                  " 5\a\tEnde\n"};
 int steuerMenu(void);
 
 int main(int argc, char* argv[])
@@ -31,9 +33,9 @@ int steuerMenu()
       printf("%s",komMenu[i]);
       }
     printf("$:");
-	if (readInteger(&kommando)!=NO_ERROR)
+if (readInteger(&kommando)!=NO_ERROR)
 	  {
-	  printf("keine Zahl");
+	    printf("keine Zahl");
 	  }
 	  
     switch (kommando)
@@ -46,6 +48,8 @@ int steuerMenu()
                          break;
       case  ITEM_KOM3:   printf("%s",komMenu[ITEM_KOM3]);
                          break;
+      case  ITEM_PHBARTH: printf("%s", komMenu[ITEM_PHBARTH]);
+                          break;
       case  ITEM_ENDE:   printf("%s",komMenu[ITEM_ENDE]);
                          break;
       default: printf("\nkein Kommando\n");
