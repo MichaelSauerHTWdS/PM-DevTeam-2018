@@ -1,7 +1,7 @@
 PROGRAM=runme
 OBJECTS=menu.o scanflib.o
 DEPENDFILE=.depend
-CC=cpp
+CC=gcc
 CFLAGS=-std=c99
 
 
