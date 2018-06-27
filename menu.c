@@ -13,6 +13,7 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 1\t1.Kommando\n",
                   " 2\t2.Kommando\n",
                   " 3\t3.---------\n",
+		  "99\t99. JWenner",
                   " 4\a\tEnde\n"};
 int steuerMenu(void);
 
