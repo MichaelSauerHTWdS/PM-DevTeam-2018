@@ -6,6 +6,7 @@
 #define ITEM_KOM2   2
 #define ITEM_KOM3   3
 #define ITEM_ENDE   4
+#define SEBASTIAN 5
 
 //Test
 
