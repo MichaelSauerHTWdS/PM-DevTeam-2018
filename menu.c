@@ -8,6 +8,7 @@
 #define ITEM_ENDE   4
 
 #define USERNAME LAURENT_LUDWIG
+#define TEST 1
 #define TEST 2
 
 char * komMenu[]={"\n 0\tHilfetext\n",
