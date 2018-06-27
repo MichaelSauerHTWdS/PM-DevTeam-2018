@@ -7,7 +7,7 @@
 #define ITEM_KOM3   3
 #define ITEM_ENDE   4
 
-
+#define USERNAME LAURENT_LUDWIG
 
 char * komMenu[]={"\n 0\tHilfetext\n",
                   " 1\t1.Kommando\n",
