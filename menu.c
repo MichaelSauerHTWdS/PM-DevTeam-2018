@@ -9,6 +9,7 @@
 #define MAECHTIGER_MATTHIAS 5
 #define EEMIRI
 
+#define EEMIRI 7
 
 char * komMenu[] = { "\n 0\tHilfetext\n",
 				  " 1\t1.Kommando\n",
