@@ -8,9 +8,6 @@
 #define ITEM_ENDE   4
 #define MAECHTIGER_MATTHIAS 5
 
-#define FIRST LLUDWIG
-#define SECOND EEMIRI
-
 char * komMenu[] = { "\n 0\tHilfetext\n",
 				  " 1\t1.Kommando\n",
 				  " 2\t2.Kommando\n",
