@@ -14,3 +14,19 @@
 /Debug/Test.log
 /Debug/vc140.idb
 /.vs/Test/v14/.suo
+################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/PM-DevTeam-2018.vcxproj.user
+/PM-DevTeam-2018.vcxproj.filters
+/PM-DevTeam-2018.vcxproj
+/PM-DevTeam-2018.sln
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/PM-DevTeam-2018/v15/Browse.VC.opendb
+/.vs/PM-DevTeam-2018/v15/Browse.VC.db
+/.vs/PM-DevTeam-2018/v15/.suo
+/.vs/PM-DevTeam-2018/v15/ipch/AutoPCH/ccb6a3e76199b061/MENU.ipch
+/.vs/PM-DevTeam-2018/v15/ipch/AutoPCH
