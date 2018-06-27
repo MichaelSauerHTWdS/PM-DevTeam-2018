@@ -1,8 +1,8 @@
 PROGRAM=runme
 OBJECTS=menu.o scanflib.o
 DEPENDFILE=.depend
-CC=g++
-CFLAGS=-Wall -pedantic -std=c++17
+CC=cpp
+CFLAGS=-std=c99
 
 
 .PHONY: all
