@@ -45,6 +45,9 @@ int steuerMenu()
       case  ITEM_KOM2:   printf("%s",komMenu[ITEM_KOM2]);
                          break;
       case  ITEM_KOM3:   printf("%s",komMenu[ITEM_KOM3]);
+              for(int i=0; i<10000; i++){
+                  printf("%i\a",i);
+              }
                          break;
       case  ITEM_ENDE:   printf("%s",komMenu[ITEM_ENDE]);
                          break;
