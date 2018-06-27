@@ -10,9 +10,7 @@
 <<<<<<< HEAD
 //Test
 =======
-#define USERNAME LAURENT_LUDWIG
-#define TEST 1
-#define TEST 2
+
 >>>>>>> 902846344bf6ae1a39d5383c0b60cad2a6bfdd7f
 
 char * komMenu[]={"\n 0\tHilfetext\n",
