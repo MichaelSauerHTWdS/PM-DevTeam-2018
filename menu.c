@@ -7,11 +7,8 @@
 #define ITEM_KOM3   3
 #define ITEM_ENDE   4
 
-<<<<<<< HEAD
-//Test
-=======
-
->>>>>>> 902846344bf6ae1a39d5383c0b60cad2a6bfdd7f
+#define FIRST LLUDWIG
+#define SECOND EEMIRI
 
 char * komMenu[]={"\n 0\tHilfetext\n",
                   " 1\t1.Kommando\n",
@@ -19,9 +16,6 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 3\t3.---------\n",
                   " 4\a\tEnde\n"};
 int steuerMenu(void);
-
-int lludwig = 1;
-int eemiri = 0;
 
 int main(int argc, char* argv[])
   {
