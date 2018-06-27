@@ -20,6 +20,7 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 4\a\tEnde\n"};
 int steuerMenu(void);
 
+int lludwig = 1;
 int eemiri = 0;
 
 int main(int argc, char* argv[])
