@@ -1,0 +1,16 @@
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/Test.sln
+/Test.vcxproj.filters
+/Test.vcxproj
+/Debug/vc140.pdb
+/Debug/Test.tlog/unsuccessfulbuild
+/Debug/Test.tlog/Test.lastbuildstate
+/Debug/Test.tlog/CL.write.1.tlog
+/Debug/Test.tlog/CL.read.1.tlog
+/Debug/Test.tlog/CL.command.1.tlog
+/Debug/Test.log
+/Debug/vc140.idb
+/.vs/Test/v14/.suo
