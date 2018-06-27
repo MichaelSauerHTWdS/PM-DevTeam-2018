@@ -16,16 +16,18 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 4\a\tEnde\n"};
 int steuerMenu(void);
 
+int eemiri = 0;
+
 int main(int argc, char* argv[])
   {
   return steuerMenu();
-  }  
-				  
+  }
+
 int steuerMenu()
   {
   int kommando = 1;
 
-  do{ 
+  do{
     for (int i=0; i<(sizeof(komMenu)/sizeof(char *)); i++)
       {
       printf("%s",komMenu[i]);
@@ -35,7 +37,7 @@ int steuerMenu()
 	  {
 	  printf("keine Zahl");
 	  }
-	  
+
     switch (kommando)
       {
       case  ITEM_HILFE:  printf("%s",komMenu[ITEM_HILFE]);
@@ -51,6 +53,6 @@ int steuerMenu()
       default: printf("\nkein Kommando\n");
       }
     }while(kommando!=ITEM_ENDE);
-   
+
     return(0);
   }
